@@ -1,0 +1,19 @@
+<!--
+  ~                 GNU GENERAL PUBLIC LICENSE
+  ~                        Version 3, 29 June 2007
+  ~
+  ~  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+  ~  Everyone is permitted to copy and distribute verbatim copies
+  ~  of this license document, but changing it is not allowed.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.concavenp.roomwordsample.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
