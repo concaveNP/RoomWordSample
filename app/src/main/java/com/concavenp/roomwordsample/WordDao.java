@@ -9,6 +9,7 @@
 
 package com.concavenp.roomwordsample;
 
+import android.arch.lifecycle.LiveData;
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.OnConflictStrategy;
@@ -26,6 +27,6 @@ public interface WordDao {
     void deleteAll();
 
     @Query("SELECT * FROM word_table ORDER BY word ASC")
-    List<String> getAllWords();
+    LiveData<List<Word>> getAllWords();
 
 }

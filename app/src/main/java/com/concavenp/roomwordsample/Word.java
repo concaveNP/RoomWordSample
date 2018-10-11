@@ -26,15 +26,22 @@ public class Word {
     private String word;
 
     public Word(@NonNull String word) {
-        this.word = word;
+        setWord(word);
     }
 
     public int getId() {
         return this.id;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getWord() {
         return this.word;
     }
 
+    public void setWord(@NonNull String word) {
+        this.word = word;
+    }
 }
